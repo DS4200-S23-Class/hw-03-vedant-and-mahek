@@ -1,0 +1,41 @@
+* {
+  font-family: Arial;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .column {
+    flex: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+.centered{
+    text-align: center;
+}
+
+
+.big-text {
+  font-size: 35px;
+}
+
+img  {
+  display: block;
+ }
+
+ .bold {
+  font-weight: bold;
+}
+
+.row {
+  display: table;
+  width: 100%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+}
+.column {
+  display: table-cell;
+}
