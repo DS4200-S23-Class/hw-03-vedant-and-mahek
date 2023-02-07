@@ -4,14 +4,17 @@
 
 .row {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-direction: row;
   }
   
   .column {
-    flex: 50%;
-    justify-content: space-evenly;
-    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 50%;
   }
+
 
 .centered{
     text-align: center;
@@ -30,13 +33,4 @@ img  {
   font-weight: bold;
 }
 
-.row {
-  display: table;
-  width: 100%; /*Optional*/
-  table-layout: fixed; /*Optional*/
-  border-spacing: 10px; /*Optional*/
-  
-}
-.column {
-  display: table-cell;
-}
+
