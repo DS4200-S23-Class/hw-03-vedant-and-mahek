@@ -1,9 +1,9 @@
 function buttonClick() {
-    var color = document.body.style.color
+    let color = document.body.style.color;
     
     if (color == 'black') {
-        document.body.style.color = 'green'
+        document.body.style.color = 'green';
     } else {
-        document.body.style.color = 'black'
+        document.body.style.color = 'black';
     }
 }
